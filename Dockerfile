@@ -5,7 +5,7 @@
 #
 
 # Pull base image.
-FROM google/nodejs
+FROM timmmmyboy/nodejs
 
 # Install Ghost
 RUN \

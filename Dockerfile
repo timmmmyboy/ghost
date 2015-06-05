@@ -2,7 +2,6 @@
 # Ghost Dockerfile
 #
 # https://github.com/dockerfile/ghost
-#
 
 # Pull base image.
 FROM timmmmyboy/nodejs

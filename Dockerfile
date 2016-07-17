@@ -6,6 +6,9 @@
 # Pull base image.
 FROM timmmmyboy/nodejs
 
+# Update
+RUN apt-get update
+
 # Install Ghost
 RUN \
   cd /tmp && \

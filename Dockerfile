@@ -7,7 +7,7 @@
 FROM timmmmyboy/nodejs
 
 # Update
-RUN apt-get update
+RUN apt-get update && apt-get upgrade
 
 # Install Ghost
 RUN \
